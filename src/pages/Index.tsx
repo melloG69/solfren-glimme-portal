@@ -25,7 +25,7 @@ const liveProjects = [
 const comingSoonProjects = [
   {
     name: "Phantom",
-    image: "https://nftnow.com/wp-content/uploads/2024/01/phantom.jpeg",
+    image: "https://187760183-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVOiF6Zqit57q_hxJYp%2Ficon%2FU7kNZ4ygz4QW1rUwOuTT%2FWhite%20Ghost_docs_nu.svg?alt=media&token=447b91f6-db6d-4791-902d-35d75c19c3d1",
   },
   {
     name: "Tensor",
