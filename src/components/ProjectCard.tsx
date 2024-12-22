@@ -6,9 +6,10 @@ interface ProjectCardProps {
   link?: string;
   comingSoon?: boolean;
   name: string;
+  children?: React.ReactNode;
 }
 
-export const ProjectCard = ({ image, link, comingSoon, name }: ProjectCardProps) => {
+export const ProjectCard = ({ image, link, comingSoon, name, children }: ProjectCardProps) => {
   const content = (
     <motion.div
       whileHover={{ scale: 1.05 }}
@@ -32,6 +33,7 @@ export const ProjectCard = ({ image, link, comingSoon, name }: ProjectCardProps)
         )}
       </div>
       <h3 className="mt-4 text-xl font-semibold text-center">{name}</h3>
+      {children}
     </motion.div>
   );
 
