@@ -15,11 +15,11 @@ export const ProjectCard = ({ image, link, comingSoon, name, children }: Project
       whileHover={{ scale: 1.05 }}
       className="glass-panel p-4 relative group"
     >
-      <div className="relative">
+      <div className="relative aspect-square w-full max-w-[240px] mx-auto">
         <img 
           src={image} 
           alt={name}
-          className="w-full h-48 object-cover rounded-lg"
+          className="w-full h-full object-contain rounded-lg"
         />
         {comingSoon && (
           <span className="coming-soon-badge">
